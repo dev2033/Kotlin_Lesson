@@ -70,14 +70,38 @@ package com.mypackage
 //                                                                     // возвращать только ОДНО Значение
 
 fun main(args: Array<String>) {
-    """Массивы данных"""
+//    """Массивы данных/Cписки"""
+//    val someArray = arrayOf(true, false) // можно не указывать тип данных
+//    var items: Array<Int> = arrayOf(5, 7, 12, 58, 6, 78)
+//    println(items.set(0, 99))       //изменение массива по индексу(число под индексом 0(5)
+//                                    // меняем на число 99)
+//    println(items[0])
+//    println(items.get(1))
+//    println(items.size)             //получение размера массива
+//
+//    //Переборка массива
+//    items.forEachIndexed{
+//        index, el -> println("$el с индексом $index")
+//    }
 
-    var items: Array<Int> = arrayOf(5, 7, 12, 58, 6, 78)
-    println(items.set(0, 99))       //изменение массива по индексу(число под индексом 0(5)
-                                    // меняем на число 99)
-    println(items[0])
-    println(items.get(1))
-    println(items.size)             //получение размера массива
+    // Списки
+//    var items_list = listOf(2, 34, 34, 235, 235, 1, 134, 4)
+//    items_list.lastIndexOf(1)
 
+    //Ассоциативный массив
+
+//    var user: Map<String, Any> = mapOf("name" to "Bob", "age" to 23, "isHasCar" to true)
+//    // Any - тип данных нужен
+//    // для передачи элементов с различными типами данных
+//    user.forEach { key, value -> println("$key -> $value") }
+//    // Переборка массива(Выводит ключ и значение)
+//    var user2 = mutableMapOf("name" to "Bob", "age" to 23, "isHasCar" to true)
+//    println(user2)
+    // Массив для добавления данных
+
+//    var array = mutableListOf<Any>(5, 54, 545, 2, 21, 62, 65, 25423, 43)
+//    array.add("Jary")
+//    array.addAll(4, array)
 }
+fun
 
