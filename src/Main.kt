@@ -69,39 +69,101 @@ package com.mypackage
 //fun saySomething(first: Boolean): String = "Hello World!! - $first"  // так можно записывать функцию, которая может
 //                                                                     // возвращать только ОДНО Значение
 
-fun main(args: Array<String>) {
-//    """Массивы данных/Cписки"""
-//    val someArray = arrayOf(true, false) // можно не указывать тип данных
-//    var items: Array<Int> = arrayOf(5, 7, 12, 58, 6, 78)
-//    println(items.set(0, 99))       //изменение массива по индексу(число под индексом 0(5)
-//                                    // меняем на число 99)
-//    println(items[0])
-//    println(items.get(1))
-//    println(items.size)             //получение размера массива
-//
-//    //Переборка массива
-//    items.forEachIndexed{
-//        index, el -> println("$el с индексом $index")
-//    }
 
-    // Списки
+//fun main(args: Array<String>) {
+////    """Массивы данных/Cписки"""
+////    val someArray = arrayOf(true, false) // можно не указывать тип данных
+//    var items: Array<Int> = arrayOf(5, 7, 12, 58, 6, 78)
+////    println(items.set(0, 99))       //изменение массива по индексу(число под индексом 0(5)
+////                                    // меняем на число 99)
+////    println(items[0])
+////    println(items.get(1))
+////    println(items.size)             //получение размера массива
+////
+////    //Переборка массива
+////    items.forEachIndexed{
+////        index, el -> println("$el с индексом $index")
+////    }
+//
+//    // Списки
 //    var items_list = listOf(2, 34, 34, 235, 235, 1, 134, 4)
 //    items_list.lastIndexOf(1)
-
-    //Ассоциативный массив
-
+//
+//    //Ассоциативный массив
+//
 //    var user: Map<String, Any> = mapOf("name" to "Bob", "age" to 23, "isHasCar" to true)
-//    // Any - тип данных нужен
-//    // для передачи элементов с различными типами данных
-//    user.forEach { key, value -> println("$key -> $value") }
-//    // Переборка массива(Выводит ключ и значение)
-//    var user2 = mutableMapOf("name" to "Bob", "age" to 23, "isHasCar" to true)
-//    println(user2)
-    // Массив для добавления данных
+////    // Any - тип данных нужен
+////    // для передачи элементов с различными типами данных
+////    user.forEach { key, value -> println("$key -> $value") }
+////    // Переборка массива(Выводит ключ и значение)
+////    var user2 = mutableMapOf("name" to "Bob", "age" to 23, "isHasCar" to true)
+////    println(user2)
+//    // Массив для добавления данных
+//
+////    var array = mutableListOf<Any>(5, 54, 545, 2, 21, 62, 65, 25423, 43)
+////    array.add("Jary")
+////    array.addAll(4, array)
+//    printArray(user)
+//}
+//fun printArray(items: Map<String, Any>){
+//    items.forEach{key, value ->
+//        println("$key -> $value")
+//    }
+//}
 
-//    var array = mutableListOf<Any>(5, 54, 545, 2, 21, 62, 65, 25423, 43)
-//    array.add("Jary")
-//    array.addAll(4, array)
-}
-fun
+
+//fun main(args: Array<String>){
+//    """Параметры в функциях"""
+//
+//    var names = arrayOf("alex", "oleg", "bob", "charly")
+//    printSome()
+//    printSome(word = *arrayOf("Hi"))
+//    printSome(word = *arrayOf("Hi"), item = "some")
+//    printSome("Hi", "some", "hello")
+//    printSome("Hi", *names)
+//}
+//
+//fun printSome(item: String = "Hi", vararg word: Any){             //vararg - функция которая позволяет
+//    print("$item: ")                                            // передавать несколько параметром
+//    word.forEach { el -> print("$el ") }
+//    println("")
+//}
+
+
+//fun main(args: Array<String>){
+//    """Циклы"""
+
+//    var items = 5
+//
+//    while(items > 0){
+//        println(items)
+//        items--
+//    }
+//
+//    do {
+//        println("Items: $items")
+//    }while (items==5)
+
+//    for (i in 0..10 step 2){            //step - шаг цикла, 0..10 - от и до
+//        println(i)
+//    }
+
+//    for(i in 10 downTo 0 step 2){           //от 10 до 0 с шагом 2
+//        println(i)
+//    }
+
+        //переборка алфавита/так же можно сделать downTo
+//    for(el in 'a'..'f'){
+//        println(el)
+//    }
+
+//val x = 100
+//if (x in 5..30){
+//    println("variable: $x")
+//}else{
+//    println("err")
+//}
+//}
+
+
 
