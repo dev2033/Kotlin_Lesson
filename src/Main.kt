@@ -166,12 +166,25 @@ package com.mypackage
 //}
 
 
-fun main(args: Array<String>){
-    """Классы и объекты"""
+//fun main(args: Array<String>){
+//    """Классы и объекты"""
+//
+//    var alex = User(secondName = "Alex", firstName = "All")
+//    alex.login = "codi"
+//    alex.login
+//
+//}
 
-    var alex = User(secondName = "Alex", firstName = "All")
-    alex.login = "codi"
-    alex.login
+//"""
+//Модификаторы доступа:
+//- private: (приватный мод. доступа)
+//- public: (по умолчанию)
+//- internal: (этот класс доступен внутри того модуля где он прописан)
+//- protected: для переменных, эта переменная  будет видна внутри одного класса и его наследников
+//"""
+
+
+fun main(args: Array<String>){
 
 }
 

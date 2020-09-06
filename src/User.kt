@@ -1,6 +1,7 @@
 package com.mypackage
 
 //class User() {
+//    """Классы и объекты"""
 //    var firstName: String = "Alex"
 //    var secondName: String = "Top"
 //
@@ -26,20 +27,22 @@ package com.mypackage
 ////    }
 ////}
 
-class User(var firstName: String = "Bob", var secondName: String = "MAr") {
-    // Можно задать параметры по умолчанию, далее они будут заменяться в файле Main.kt
-    var login: String? = null
-        set(value) {
-            if(value == "codi")
-                field = "None"
-            else
-                field = value
-            println("Значение переменной: $field")
-        }
+//class User(var firstName: String = "Bob", var secondName: String = "MAr") {
+//    // Можно задать параметры по умолчанию, далее они будут заменяться в файле Main.kt
+//    var login: String? = null
+//        set(value) {
+//            if(value == "codi")
+//                field = "None"
+//            else
+//                field = value
+//            println("Значение переменной: $field")
+//        }
+//
+//        get() {
+//            val loginField = field ?: "неизвестно"
+//            println("переменная = $loginField")
+//            return field
+//        }
+//}
 
-        get() {
-            val loginField = field ?: "неизвестно"
-            println("переменная = $loginField")
-            return field
-        }
-}
+
