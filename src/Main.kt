@@ -166,4 +166,12 @@ package com.mypackage
 //}
 
 
+fun main(args: Array<String>){
+    """Классы и объекты"""
+
+    var alex = User(secondName = "Alex", firstName = "All")
+    alex.login = "codi"
+    alex.login
+
+}
 
