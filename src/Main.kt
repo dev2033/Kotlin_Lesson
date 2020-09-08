@@ -166,12 +166,61 @@ package com.mypackage
 //}
 
 
-fun main(args: Array<String>){
-    """Классы и объекты"""
+//fun main(args: Array<String>){
+//    """Классы и объекты"""
+//
+//    var alex = User(secondName = "Alex", firstName = "All")
+//    alex.login = "codi"
+//    alex.login
+//
+//}
 
-    var alex = User(secondName = "Alex", firstName = "All")
-    alex.login = "codi"
-    alex.login
 
-}
+
+//перечисление
+
+//enum class Animals{
+//    DOG, CAT, BEAR, LION;
+//
+//    fun toLoverCase() = name.toLowerCase().capitalize()
+//}   //toLowerCase - все буквы в верхнем регистре
+//    //capitalize - первая буква начинается с верхнего регистра(Cat, Bear, Dog, Lion)
+//
+//fun main(args: Array<String>){
+//    """Абстрактные классы и интерфейсы"""
+//    """Наследование классов и перечисление"""
+//
+////    val user = NewClass()
+////    user.printInfo(User())
+////    println(user.getConnection())
+//
+//    val user = object : MainProvider() {                //при создании объекта, так же можно наследоваться
+//        override fun printInfo(user: User) {
+//            super.printInfo(user)
+//            println("выводиться текст из класса наследника2")
+//        }
+//    }
+//
+//    val animals = Animals.BEAR           //задаем переменную для перечисления
+//
+//    when(animals) {                         //задаем условия для переменной, методом when
+//        Animals.CAT -> println("Кошка")
+//        Animals.BEAR -> println(animals.toLoverCase())      //animals.toLoverCase или можно обратиться к name
+//        Animals.LION -> println("Лев")
+//        Animals.DOG -> println("Собака")
+//        else -> println("Что-то другое!!!")
+//    }
+//
+//    checkDataTypes(user)
+//}
+//
+//fun checkDataTypes(obj: MainProvider) {
+//    if (obj is UserInfoProvider){               //если объект принадлежит к интерфейсу UserInfoProvider
+//        obj.printInfo(User())                   // если принадлежит то выводить printInfo
+//    }
+//
+//    if (obj is DbConnection){
+//        println(obj.getConnection())
+//    }
+//}
 
